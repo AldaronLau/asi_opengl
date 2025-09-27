@@ -1,32 +1,23 @@
-# Copyright Jeron A. Lau 2018.
-# Dual-licensed under either the MIT License or the Boost Software License,
-# Version 1.0.  (See accompanying file LICENSE_1_0.txt or copy at
-# https://www.boost.org/LICENSE_1_0.txt)
-#
-# XXXX  X                    /5\——————/5\       XXXX      X           X
-# X   X X   XXX   XXXX      |   0    0   |     X      XXX   XXXX XXXX X X   X
-# X   X X  X   X  X   X  /"\|     <>     |/"\  X      X   X    X    X X X   X
-# XXXX  X  X   X  X   X  \  \\_  ====  _//  /  X   XX X   X   X    X  X  X X
-# X     X  X   X  XXXX    \_              _/   X    X X   X  X    X   X   X
-# X     X   XXX   X       / \            / \    XXXX  X   X XXXX XXXX X   X
-#                 X       \                /                            XX
-#                          --____________--
-
 [package]
 name = "asi_opengl"
-version = "0.6.2"
-authors = [
-	"Jeron A. Lau <jeron.lau@plopgrizzly.com>"
-]
+version = "0.6.3"
 license = "MIT / BSL-1.0"
 documentation = "https://docs.rs/asi_opengl"
-homepage = "https://gitlab.com/plopgrizzly/adi/"
-repository = "https://gitlab.com/plopgrizzly/adi/asi_opengl"
+homepage = "https://github.com/AldaronLau/asi_opengl"
+repository = "https://github.com/AldaronLau/asi_opengl"
 readme = "README.md"
 description = "Rust safe bindings for OpenGL / OpenGLES."
 keywords = ["opengl", "opengl-es", "opengles"]
-categories = ["rendering::graphics-api", "hardware-support",
-	"api-bindings", "rendering", "external-ffi-bindings"]
+categories = [
+    "api-bindings",
+    "external-ffi-bindings",
+    "hardware-support",
+    "rendering",
+    "rendering::graphics-api",
+]
+
+[badges.maintenance]
+status = "deprecated"
 
 [dependencies]
 dl_api = "0.2"
